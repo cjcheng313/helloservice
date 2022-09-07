@@ -19,6 +19,6 @@ public class HelloController {
 
     @GetMapping(value = "/hello/{id}")
     public String Hello(@PathVariable String id){
-        return helloService.Hello(id);
+        return helloService.HelloByAlais(id);
     }
 }
